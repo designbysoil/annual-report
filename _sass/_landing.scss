@@ -46,6 +46,7 @@
 // sections common
 section.content {
 	background-color: rgba($g0, 0.6);
+	position: relative;
 }
 
 .content-wrapper {
@@ -55,7 +56,17 @@ section.content {
 	max-width: $page-width;
 }
 
-.content-wrapper.bordered {
+.graphic-wrapper {
+	width: 100%;
+  padding: $space-small;
+  margin: 0 auto;
+	max-width: $page-width;
+	.illustration {
+		margin-bottom: 0;
+	}
+}
+
+.bordered {
 	border-left: 1px solid $black;
   border-right: 1px solid $black;
  }
@@ -74,7 +85,7 @@ section.content {
 // 	}
 // }
 
-.content-wrapper h2 {
+section.content h2 {
 	position: relative;
 	font-weight: normal;
 	font-size: $large-text;
@@ -164,7 +175,7 @@ section.content {
 
 // sections
 .introduction {
-	position: relative;
+	.graphic-wrapper,
 	.content-wrapper {
 		background-color: rgba($g2, 0.2);
 	}
@@ -185,4 +196,23 @@ section.content {
 	.illustration {
 		margin-top: -9em;
 	}
+}
+
+.in-numbers {
+	.content-wrapper {
+		background-color: #fff;
+	}
+	.graphic-wrapper {
+		background-color: rgba($g2, 0.2);
+	}
+	.illustration {
+		margin-top: -9em;
+	}
+}
+
+hr {
+	margin-top: $space-medium;
+	margin-bottom: $space-small/2;
+	display: block;
+	border: 2px solid $g2;
 }

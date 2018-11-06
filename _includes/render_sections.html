@@ -3,13 +3,15 @@
 	class="start-introduction" 
 %}
 <section class="content introduction">
-	<div class="content-wrapper bordered">
+	<div class="graphic-wrapper bordered">
 		<h2><span>1.</span> Introduction</h2>
 		{%
 			include module_graphic.html
 			url="/images/graphic_introduction.png"
 			title="introduction"
 		%}
+	</div>
+	<div class="content-wrapper bordered">
 		{%
 			include module_lead_text.html
 			content="At Meedan we care about language. We began after all as a project to show the way media narratives vary between language communities. We understand the relationship between language and meaning."
@@ -38,6 +40,119 @@
 					<p>So, as we consider 2016 at Meedan, we have to give a nod to the fact that in the base-ten language we use to order our numeric system cycles of ten are a big deal.</p>
 					<p>Ed Bice <br />
 					 CEO & Board Chair</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% 
+	include break.html 
+	class="end-introduction" 
+%}
+<section class="content in-numbers">
+	<div class="graphic-wrapper bordered">
+		<h2><span>2.</span> In Numbers</h2>
+		{%
+			include module_graphic.html
+			url="/images/graphic_in-numbers.png"
+			title="in numbers"
+		%}
+	</div>
+	<div class="content-wrapper bordered">
+		{%
+			include module_lead_text.html
+			content="The Shared Living lab explores new ways of designing living spaces in order to tackle common problems that many experience in our new urban realities—including loneliness and the increasing lack of affordable housing."
+		%}
+		<hr />
+		<div class="columns">
+			<div class="column column-a">
+			    <h3>Check</h3>
+			</div>
+			<div class="column column-b">
+				<p>Building Blocks is a project in process. We still have unanswered questions, and have decided to share the design files in order to get feedback and learn from other architects, builders, designers, so that together we can develop and improve the project.</p>
+				<div class="stats">
+					{%
+	              include stat.html
+	              label="New users"
+	              number="1247"
+	        %}
+	        {%
+	              include stat.html
+	              label="Number of media items created"
+	              number="3130"
+	        %}
+	        {%
+	              include stat.html
+	              label="Average time to verification"
+	              number="~ 2.5 hours"
+	        %}
+	        {%
+	              include stat.html
+	              label="Annotations created"
+	              number="5023"
+	        %}
+      	</div>
+			</div>
+		</div>
+		<hr />
+		<div class="columns">
+			<div class="column column-a">
+			    <h3>Keep</h3>
+			</div>
+			<div class="column column-b">
+				<p>Building Blocks is a project in process. We still have unanswered questions, and have decided to share the design files in order to get feedback and learn from other architects, builders, designers, so that together we can develop and improve the project.</p>
+				<div class="stats">
+					{%
+	              include stat.html
+	              label="Items archived"
+	              number="128"
+	        %}
+	        {%
+	              include stat.html
+	              label="Items archived and deleted"
+	              number="22"
+	        %}
+	        {%
+	              include stat.html
+	              label="Teams using screenshots"
+	              number="9"
+	        %}
+	        {%
+	              include stat.html
+	              label="Teams using archive.is"
+	              number="7"
+	        %}
+      	</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column column-a">
+			    <h3>Bridge</h3>
+			</div>
+			<div class="column column-b">
+				<p>Building Blocks is a project in process. We still have unanswered questions, and have decided to share the design files in order to get feedback and learn from other architects, builders, designers, so that together we can develop and improve the project.</p>
+				<div class="stats">
+					{%
+	              include stat.html
+	              label="Translations requested"
+	              number="252"
+	        %}
+	        {%
+	              include stat.html
+	              label="Translations done with Bridge "
+	              number="199"
+	              note="May include some testing items"
+	        %}
+	        {%
+	              include stat.html
+	              label="Teams using screenshots"
+	              number="9"
+	        %}
+	        {%
+	              include stat.html
+	              label="Teams using archive.is"
+	              number="7"
+	        %}
+      	</div>
 			</div>
 		</div>
 	</div>
