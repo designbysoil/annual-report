@@ -168,3 +168,25 @@
 	include break.html 
 	class="end-introduction" 
 %}
+<section class="content reviews">
+	<div class="graphic-wrapper bordered">
+		<h2><span>3.</span> What are people saying?</h2>
+		{%
+			include module_graphic.html
+			url="/images/graphic_reviews.png"
+			title="in numbers"
+		%}
+	</div>
+	<div class="content-wrapper bordered">
+		{%
+			include module_lead_text.html
+			content="The Shared Living lab explores new ways of designing living spaces in order to tackle common problems that many experience in our new urban realities—including loneliness and the increasing lack of affordable housing."
+		%}
+		{%
+			include module_pull_quote.html
+			content="If we had not had Check there as a tool, it would’ve been very difficult to manage that workflow, Having the collaborative aspect of Check as a platform was essential for CrossCheck."
+			pullquote_by="Sam Dubberley"
+			source="CrossCheck’s Managing Editor on using Check covering the French Elections"
+		%}
+	</div>
+</section>
