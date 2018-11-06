@@ -1,0 +1,20 @@
+---
+# Main SASS file
+---
+// English fonts
+@import url('//fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500');
+
+// import sass files
+@import "colors.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+// Defaults
+@import "base.scss";
+
+// Layouts
+@import "landing.scss";
+
+
+// Modules
+@import "media.scss";

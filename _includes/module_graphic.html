@@ -1,0 +1,7 @@
+{% assign title = include.title %}
+{% assign url = include.url %}
+{% assign full_width = include.full_width | default: 'false' %}
+{% assign full_width_class = 'full-width' %}
+<div class="illustration{% if full_width == true %}{{ full_width_class | prepend: ' ' }}{% endif %}">
+	<img src="{{ include.url }}" alt="{{ include.title }}"/>
+</div>
