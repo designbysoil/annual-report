@@ -51,7 +51,7 @@ section.content {
 
 .content-wrapper {
 	width: 100%;
-  padding: $space-small;
+  padding: $space-small $space-small $space-large $space-small;
   margin: 0 auto;
 	max-width: $page-width;
 }
@@ -107,6 +107,10 @@ section.content h2 {
 		font-weight: normal;
 		font-size: $medium-text;
 	}
+}
+
+.intro {
+	font-size: $medium-text;
 }
 
 .illustration {
