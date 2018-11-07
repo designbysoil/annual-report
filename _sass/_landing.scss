@@ -175,27 +175,6 @@ section.content h2 {
 	}
 }
 
-.break {
-	width: 100%;
-	border-top: 1px solid $black;
-	border-bottom: 1px solid $black;
-}
-
-.break-wrapper {
-	height: $space-small;
-	max-width: $page-width;
-	margin: 0 auto;
-	margin-top: 0;
-	margin-bottom: 0;	
-	display: flex;
-	flex-wrap: column;
-	justify-content: space-between;
-  position: relative;
-	div {
-		border-left: 1px solid;
-	}
-}
-
 hr {
 	margin-top: $space-medium;
 	margin-bottom: $space-small/2;

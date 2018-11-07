@@ -1,0 +1,94 @@
+.break {
+	width: 100%;
+	border-top: 1px solid $black;
+	border-bottom: 1px solid $black;
+	background-color: rgba($g0, 0.6);
+}
+
+.break-wrapper {
+	height: $space-small;
+	max-width: $page-width;
+	margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 0;	
+	display: flex;
+	justify-content: space-between;
+  position: relative;
+	div {
+		// flex: 1 1 auto;
+		border-left: 1px solid;
+	}
+}
+
+.end-introduction .break-wrapper {
+	.one {
+		width: 20%;
+		flex: 1 0 20%;
+	}
+	.two {
+		width: 39.9%;
+		flex: 1 0 39.9%;	
+	}
+	.three, .four, .five {
+		width: 20%;
+		flex: 1 0 20%;
+	}
+}
+
+.end-in-numbers .break-wrapper {
+	.one {
+		width: 15%;
+		flex: 1 0 15%;
+	}
+	.two {
+		width: 4.9%;
+		flex: 1 0 4.9%;	
+	}
+	.three {
+		width: 50%;
+		flex: 1 0 50%;
+	}
+	.four, .five {
+		width: 30%;
+		flex: 1 0 30%;
+	}
+}
+
+.end-reviews .break-wrapper {
+	.one {
+		width: 30%;
+		flex: 1 0 30%;
+	}
+	.two, .five {
+		width: 9.9%;
+		flex: 1 0 9.9%;
+	}
+	.three, .four {
+		width: 30%;
+		flex: 1 0 30%;
+	}
+}
+
+.end-financials .break-wrapper {
+	background-color: #fff;
+	.one {
+		width: 20%;
+		flex: 1 0 20%;
+	}
+	.two {
+		width: 20%;
+		flex: 1 0 20%;
+	}
+	.three {
+		width: 10%;
+		flex: 1 0 10%;
+	}
+	.four {
+		width: 49.9%;
+		flex: 1 0 49.9%;
+	}
+	.five {
+		width: 39.99%;
+		flex: 1 0 39.99%;
+	}
+}
