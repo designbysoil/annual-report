@@ -18,54 +18,59 @@
 		// flex: 1 1 auto;
 		border-left: 1px solid;
 	}
+	.five {
+		border-right: 1px solid;
+	}
 }
 
+.start-introduction.break {
+	background-color: $black;
+	border-bottom-color: #fff;
+	div {
+		border-left-color: #fff;
+	}
+	.five {
+		border-right-color: #fff;
+	}
+}
+
+.start-introduction .break-wrapper,
 .end-introduction .break-wrapper {
 	.one {
-		width: 20%;
-		flex: 1 0 20%;
+		width: 30%;
 	}
 	.two {
-		width: 39.9%;
-		flex: 1 0 39.9%;	
+		width: 49.9999%;
 	}
 	.three, .four, .five {
-		width: 20%;
-		flex: 1 0 20%;
+		width: 10.002%;
 	}
 }
 
 .end-in-numbers .break-wrapper {
 	.one {
-		width: 15%;
-		flex: 1 0 15%;
+		width: 15.002%;
 	}
 	.two {
-		width: 4.9%;
-		flex: 1 0 4.9%;	
+		width: 4.9999%;
 	}
 	.three {
 		width: 50%;
-		flex: 1 0 50%;
 	}
 	.four, .five {
 		width: 30%;
-		flex: 1 0 30%;
 	}
 }
 
 .end-reviews .break-wrapper {
 	.one {
-		width: 30%;
-		flex: 1 0 30%;
+		width: 30.002%;
 	}
 	.two, .five {
-		width: 9.9%;
-		flex: 1 0 9.9%;
+		width: 9.9999%;
 	}
 	.three, .four {
-		width: 30%;
-		flex: 1 0 30%;
+		width: 30.9999%;
 	}
 }
 
@@ -73,22 +78,17 @@
 	background-color: #fff;
 	.one {
 		width: 20%;
-		flex: 1 0 20%;
 	}
 	.two {
 		width: 20%;
-		flex: 1 0 20%;
 	}
 	.three {
-		width: 10%;
-		flex: 1 0 10%;
+		width: 10.002%;
 	}
 	.four {
-		width: 49.9%;
-		flex: 1 0 49.9%;
+		width: 49.9999%;
 	}
 	.five {
-		width: 39.99%;
-		flex: 1 0 39.99%;
+		width: 39.9999%;
 	}
 }
