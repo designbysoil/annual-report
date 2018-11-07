@@ -73,6 +73,12 @@
 				</div>
 				<div class="stats">
 					{%
+						include module_graphic.html
+						url="/images/graph_stats.png"
+						title="Check ease of use graph"
+					%}
+					<div class="note">73% of our users think it’s easy to use Check and 27% think Check is difficult to use.</div>					
+					{%
 	              include stat.html
 	              label="New users"
 	              number="1247"
@@ -217,7 +223,13 @@
 				<div class="intro">
 					<p>Building Blocks is a project in process. We still have unanswered questions, and have decided to share the design files in order to get feedback and learn from other architects, builders, designers, so that together we can develop and improve the project.</p>
 				</div>
+
 				<div class="stats">
+					{%
+						include module_graphic.html
+						url="/images/graph_revenue.png"
+						title="in numbers"
+					%}					
 					{%
 	              include stat.html
 	              label="Contributions and Grants"

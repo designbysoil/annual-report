@@ -3,12 +3,26 @@
 	{% include head.html %}
 	<body class="page-section">
 		<div class="site-wrapper">
+			{% include header.html %}
 			<div class="p-header">
         <div class="p-header-container">
       		<h1>2017 Annual Report</h1>
       		<h2>Promoting collaborative verification and 
 fact-checking through a global network of independent media, journalism school and human rights partners.</h2>
+					<div class="columns">
+						<div class="column-a">
+							<p>This Annual Report reflects the state of Meedan.org and its financial health. Meedan.org is a US registered, San Francisco based, 501(c) 3 non-profit organization established in 2006 that works on projects to support global journalism and cross-cultural education.</p>
+						</div>
+						<div class="column-b">
+							{%
+								include module_graphic.html
+								url="/images/graphic_verticals.png"
+								title="in numbers"
+							%}
+						</div>
+					</div>
       	</div>
+
       </div>
       {% include render_sections.html %}
       {% include footer.html %}

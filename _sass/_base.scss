@@ -45,3 +45,27 @@ figure {
   flex: 1 auto;
   box-sizing: border-box;
 }
+
+// ====================================================================
+// Logo
+
+.header {
+  margin-top: $space-small;
+  max-width: $page-width;
+}
+
+.logo {
+  line-height: 1;
+}
+
+.logo svg {
+  display: inline-block;
+}
+
+.logo-text {
+  position: relative;
+}
+
+.logo-text-original {
+  color: transparent;
+}
