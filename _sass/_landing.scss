@@ -242,21 +242,30 @@ hr {
 
 .reviews {
 	.content-wrapper {
-		background-color: #fff;
+		// background-color: #fff;
 	}
-	// .graphic-wrapper.background {
-	// 	height: 1349px;
-	// 	background-repeat: no-repeat;
-	// 	background-position: top left;
-	// 	background-color: $g2;
-	// 	overflow: visible;
-	// }
 	.graphic-wrapper {
 		background-color: $g2;
 	}
 	.illustration {
 		margin-top: -($space-small + 12.8em);
 		margin-left: -($space-medium + 0.4em);
+		margin-bottom: -($space-small + 2em);
+	}
+	h2 {
+		width: 40%;
+	}
+}
+
+.financials {
+	.content-wrapper {
+		background-color: #fff;
+	}
+	.graphic-wrapper {
+		// background-color: $g2;
+	}
+	.illustration {
+		margin-top: -$space-medium;
 		margin-bottom: -($space-small + 2em);
 	}
 	h2 {

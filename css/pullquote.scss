@@ -22,10 +22,16 @@
 	background-image: linear-gradient($g2 1px, transparent 1px);
 	background-size: 100% 2em;
 	background-position: 0 3.89em; // start from line 2
+	margin-bottom: $space-small;
+}
+
+.pullquote .by {
+	color: $g1;
 }
 
 .pullquote .source {
 	display: block;
 	font-size: $small-text;
 	margin-top: 4px;
+	color: $g1;
 }
