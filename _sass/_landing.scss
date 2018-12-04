@@ -15,10 +15,22 @@
   height: 120vh;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .p-header {
+		height: 90vh;
+	}
+}
+
 .page-section .p-header-container {
 	font-weight: normal;
   margin: $space-small/2 auto $space-medium;
 	max-width: $page-width;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .p-header-container {
+		width: 90%;
+	}
 }
 
 .page-section .p-header-container h1 {
@@ -48,18 +60,20 @@
 	color: $g1;
 }
 
-.page-section .p-header-container .column-a {
-	max-width: 40%;
-	flex: 1 0 40%;
-	align-self: flex-end;
-}
+@include responsive('min-width: #{$width-tablet}') {
+	.page-section .p-header-container .column-a {
+		max-width: 40%;
+		flex: 1 0 40%;
+		align-self: flex-end;
+	}
 
-.page-section .p-header-container .column-b {
-	max-width: 40%;
-	flex: 1 0 40%;
-	align-self: flex-end;
-	.illustration {
-		margin-bottom: 0;
+	.page-section .p-header-container .column-b {
+		max-width: 40%;
+		flex: 1 0 40%;
+		align-self: flex-end;
+		.illustration {
+			margin-bottom: 0;
+		}
 	}
 }
 
@@ -71,9 +85,15 @@ section.content {
 
 .content-wrapper {
 	width: 100%;
-  padding: $space-small $space-small $space-large $space-small;
-  margin: 0 auto;
+  	margin: 0 auto;
 	max-width: $page-width;
+	padding: 0 $space-small/2;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.content-wrapper {
+	  margin: 0 auto;
+	}
 }
 
 .graphic-wrapper {
@@ -160,6 +180,12 @@ section.content h2 {
 	justify-content: space-between;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.columns {
+		flex-direction: column;
+	}
+}
+
 .column {
 	max-width: 50%;
 	flex-basis: 50%;
@@ -167,14 +193,24 @@ section.content h2 {
   margin: 0;
 }
 
-.column-a {
-	max-width: 15%;
-	flex-basis: 15%;
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.column {
+		max-width: 100%;
+		flex-basis: 100%;
+	}
 }
 
-.column-b {
-	max-width: 60%;
-	flex-basis: 60%;
+
+@include responsive('min-width: #{$width-tablet}') {
+	.column-a {
+		max-width: 15%;
+		flex-basis: 15%;
+	}
+
+	.column-b {
+		max-width: 60%;
+		flex-basis: 60%;
+	}
 }
 
 .grouped-column {
