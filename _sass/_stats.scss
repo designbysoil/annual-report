@@ -12,6 +12,12 @@
 		text-align: right;
 	}
 	.label {
+		width: 50%;
+	}
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.stat .label {
 		width: 30%;
 	}
 }

@@ -16,22 +16,25 @@
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.page-section header {
-		width: 90%;
-	}
 	.page-section .p-header {
 		margin-top: 20vh;
 		height: auto;
 	}
 }
 
+@include responsive('max-width: #{$width-wide}') {
+	.page-section header {
+		width: 90%;
+	}
+}
+
 .page-section .p-header-container {
 	font-weight: normal;
-  margin: $space-small/2 auto $space-medium;
+	margin: $space-small/2 auto $space-medium;
 	max-width: $page-width;
 }
 
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+@include responsive('max-width: #{$width-wide}') {
 	.page-section .p-header-container {
 		width: 90%;
 	}
@@ -271,10 +274,14 @@ hr {
 		height: 480px;
 	}
 	.graphic-wrapper .illustration {
-		margin-top: -4em;
+		margin-top: -6em;
+	}
+	.graphic-wrapper .illustration img {
+		max-width: 150%;
 	}
 	.content-wrapper {
 		background-color: rgba($g2, 0.2);
+		// padding-top: 10em;
 	}
 	&:before {
 		content: '';
@@ -292,6 +299,12 @@ hr {
 	}
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.introduction .content-wrapper {
+		padding-top: 2em;
+	}
+}
+
 @include responsive('min-width: #{$width-tablet}') {
 	.introduction .graphic-wrapper {
 		height: 680px;
@@ -300,10 +313,16 @@ hr {
 		margin-top: -9em;
 	}
 	.introduction .content-wrapper {
-		padding-top: 300px;
+		padding-top: 4em;
 	}
 	.introduction:before {
 		height: 680px;
+	}
+}
+
+@media (min-width: #{$width-desktop}) and (max-width: #{$width-wide}) {
+	.introduction .content-wrapper {
+		padding-top: 18em;
 	}
 }
 
@@ -317,6 +336,9 @@ hr {
 			margin-top: -4em;
 		}
 	}
+	.graphic-wrapper .illustration img {
+		max-width: 120%;
+	}
 }
 
 @include responsive('min-width: #{$width-tablet}') {
@@ -328,6 +350,9 @@ hr {
 .reviews {
 	.content-wrapper {
 		// background-color: #fff;
+	}
+	.graphic-wrapper .illustration img {
+		max-width: 110%;
 	}
 	.graphic-wrapper {
 		background-color: $g2;
@@ -357,8 +382,11 @@ hr {
 		background-color: #fff;
 	}
 	.graphic-wrapper .illustration {
-		margin-top: -3em;
+		margin-top: -5em;
 		margin-bottom: -($space-small + 1em);
+	}
+	.graphic-wrapper .illustration img {
+		max-width: 160%;
 	}
 }
 
