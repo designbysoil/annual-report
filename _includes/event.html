@@ -1,0 +1,18 @@
+{% assign date = include.date | default: 'false' %}
+{% assign title = include.title %}
+{% assign description = include.description %}
+{% assign note = include.note %}
+
+<div class="{% if date != 'false' %}event{% endif %}{% if note %} with-note{% endif %}{% if date == 'false' %}sub-event{% endif %}">
+	{% if date != 'false' %}
+	<div class="date">{{ date }}</div>
+	{% endif %}
+	<div class="event-wrapper">
+		<div class="title">{{ title }}</div>
+		{% if note %}
+		  <div class="note">{{ note }}</div>
+		{% endif %}
+    	<div class="description">{{ description }}</div>
+
+    </div>
+</div>
