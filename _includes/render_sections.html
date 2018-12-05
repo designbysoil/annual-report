@@ -75,8 +75,7 @@
 				{% 
 			      include media_image.html 
 			      image="//images.ctfassets.net/a1gidpdiipum/2YXXwCjoM8wYCeIkEYYYm2/b19307d269be56e88b2dac603f2c0071/PopUpGE2017_2-3.jpg"
-			      caption_title="Local media partners"
-			      caption="Multi-platform editorial products designed and refined through cross-border, digital first collaboration between publishers and broadcasters in Europe."
+			      caption_title="#GE2017 in the UK"
 				%}
 				<p><a href="//popup.news/">Pop-Up Newsroom</a> was founded in 2017 by Dig Deeper Media and Meedan and is an innovation framework for newsrooms that are changing the way they collaborate, communicate and engage audiences through new tools and training. Our structured approach to innovation — both technological and editorial — is unique.</p>
 				<p>The Pop-Up Newsroom team have been involved in leading a number of large, high-profile social monitoring and verification projects since 2016: from Electionland in the US, to CrossCheck in France, #GE2017 in the UK. </p>
@@ -195,7 +194,7 @@
 			</div>
 			<div class="column column-b">
 				<div class="intro">
-					<p>Building Blocks is a project in process. We still have unanswered questions, and have decided to share the design files in order to get feedback and learn from other architects, builders, designers, so that together we can develop and improve the project.</p>
+					<p>Check combines smart checklists, workflow integrations, and intuitive design to make digital newsgathering an efficient and collaborative process. Invite your team and online community in a secure environment to work together to validate breaking news content. Then, quickly show the work to your audience on social media or your news site.</p>
 				</div>
 				<div class="stats">
 					{%
@@ -234,7 +233,7 @@
 			</div>
 			<div class="column column-b">
 				<div class="intro">
-					<p>Building Blocks is a project in process. We still have unanswered questions, and have decided to share the design files in order to get feedback and learn from other architects, builders, designers, so that together we can develop and improve the project.</p>
+					<p>Keep works as a backup platform for links added online. If a media item is added to Check with a link, with Keep enabled, a copy of the video is added to Keep so that there is always a backup link in case that the original goes down or gets removed at any point in time.</p>
 				</div>
 				<div class="stats">
 					{%
@@ -254,8 +253,18 @@
 	        %}
 	        {%
 	              include stat.html
-	              label="Teams using archive.is"
+	              label="Teams with Video vaults"
+	              number="9"
+	        %}
+	        {%
+	              include stat.html
+	              label="Number of teams with Archive.is"
 	              number="7"
+	        %}
+	        {%
+	              include stat.html
+	              label="Number of teams with Archive.org"
+	              number="2"
 	        %}
       	</div>
 			</div>
@@ -267,7 +276,7 @@
 			</div>
 			<div class="column column-b">
 				<div class="intro">
-					<p>Building Blocks is a project in process. We still have unanswered questions, and have decided to share the design files in order to get feedback and learn from other architects, builders, designers, so that together we can develop and improve the project.</p>
+					<p>Bridge helps communities translate, annotate, share, and source the most compelling global content on social media. Starting with a pilot with the National Geographic Society and Pulitzer Prize-winning journalist Paul Salopek’s Out of Eden Walk project, the product aims to support a team of translators with tools like glossaries and translation memories.</p>
 				</div>
 				<div class="stats">
 					{%
@@ -283,13 +292,8 @@
 	        %}
 	        {%
 	              include stat.html
-	              label="Teams using screenshots"
-	              number="9"
-	        %}
-	        {%
-	              include stat.html
-	              label="Teams using archive.is"
-	              number="7"
+	              label="Number of new users"
+	              number="21"
 	        %}
       	</div>
 			</div>
@@ -319,6 +323,18 @@
 			content="If we had not had Check there as a tool, it would’ve been very difficult to manage that workflow, Having the collaborative aspect of Check as a platform was essential for CrossCheck."
 			pullquote_by="Sam Dubberley"
 			source="CrossCheck’s Managing Editor on using Check covering the French Elections"
+		%}
+		{%
+			include module_pull_quote.html
+			content="The app is really good, it makes it very easy to translate the tweets. I think this effort is very important to help informacion, resources and conversations from this type of events to be available to more people in their languages."
+			pullquote_by="Indira Cornelio"
+			source="Volunteer translator on using Bridge during  RightsCon 2017"
+		%}
+		{%
+			include module_pull_quote.html
+			content="Whether it's geolocating international airstrikes in Syria and Iraq, finding sites of potential war crimes in Libya, or tracing objects to stop child abuse, Check is the platform which the international investigative group Bellingcat has repeatedly used to successfully organise and structure crowdsourcing campaigns."
+			pullquote_by="Christiaan Triebert"
+			source="Open Source Analyst with Bellingcat Team on Check"
 		%}
 	</div>
 </section>

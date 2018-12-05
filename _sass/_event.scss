@@ -7,6 +7,12 @@
 	padding-bottom: $space-small/2;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.event {
+		flex-direction: column;
+	}
+}
+
 .events .title {
 	font-size: $medium-text;
 	margin-bottom: $space-small/6;
@@ -26,8 +32,13 @@
 .sub-event {
 	display: flex;
 	border-top: 1px solid $g2;
-	margin-left: 40%;
 	padding-top: $space-small/2;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.sub-event {
+		margin-left: 40%;
+	}
 }
 
 
