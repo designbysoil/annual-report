@@ -16,6 +16,12 @@
 	}
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.stat .number {
+		font-size: $x-large-text;
+	}
+}
+
 .stat.with-note {
 	padding-bottom: $space-small/2;
 }

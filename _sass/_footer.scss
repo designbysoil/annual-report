@@ -26,11 +26,12 @@
 	}
 }
 
-.footer .social,
-.footer .past-years {
-	// align-self: stretch;
-	width: 15%;
-	flex: 1 0 15%;
+@include responsive('min-width: #{$width-tablet}') {
+	.footer .social,
+	.footer .past-years {
+		width: 15%;
+		flex: 1 0 15%;
+	}
 }
 
 .footer {
@@ -55,7 +56,10 @@
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.footer {
+	.footer .content-wrapper {
 		flex-direction: column;
+		& > div:not(:first-child) {
+			margin-top: $space-small;
+		}
 	}
 }
