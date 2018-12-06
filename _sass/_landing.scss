@@ -12,14 +12,7 @@
   align-items: center;
   justify-content: flex-end;
   will-change: opacity;
-  height: 120vh;
-}
-
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.page-section .p-header {
-		margin-top: 20vh;
-		height: auto;
-	}
+  margin-top: 20vh;
 }
 
 @include responsive('max-width: #{$width-wide}') {
@@ -307,9 +300,9 @@ hr {
 	}
 }
 
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+@media (min-width: 1px) and (max-width: #{$width-mobile}) {
 	.introduction .content-wrapper {
-		padding-top: 2em;
+		padding-top: 4em;
 	}
 }
 
@@ -321,14 +314,26 @@ hr {
 		margin-top: -9em;
 	}
 	.introduction .content-wrapper {
-		padding-top: 4em;
+		padding-top: 10em;
 	}
 	.introduction:before {
 		height: 680px;
 	}
 }
 
+@media (min-width: #{$width-tablet}) and (max-width: #{$width-desktop}) {
+	.introduction .content-wrapper {
+		padding-top: 18em;
+	}
+}
+
 @media (min-width: #{$width-desktop}) and (max-width: #{$width-wide}) {
+	.introduction .content-wrapper {
+		padding-top: 18em;
+	}
+}
+
+@include responsive('min-width: #{$width-wide}') {
 	.introduction .content-wrapper {
 		padding-top: 18em;
 	}

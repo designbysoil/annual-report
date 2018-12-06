@@ -39,7 +39,7 @@
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.card-graphic {
 		order: -1;
-		height: 350px;
+		height: 250px;
 	}
 	.card-text,
 	.card-graphic {
@@ -60,7 +60,7 @@
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.card-text {
-		height: 450px;
+		height: 290px;
 	}
 }
 
@@ -68,6 +68,12 @@
 .card-text .count,
 .card-text .description {
 	margin: 0;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card-text .description {
+		display: none;
+	}
 }
 
 .card-text .title span {
