@@ -55,22 +55,54 @@
 	}
 }
 
-.page-section .p-header-container .columns {
-	margin-top: $space-medium;
-	color: $g1;
+.page-section .nav,
+.page-section .about-report {
+	max-width: $page-width;
+	margin: 0 auto;
 }
 
-@include responsive('min-width: #{$width-tablet}') {
-	.page-section .p-header-container .columns {
-		margin-top: $space-large;
+.page-section .nav-wrapper {
+	background-color: rgba($g0, 0.3);
+	border-top: 1px solid $g0;
+	border-bottom: 1px solid $g0;
+}
+
+.page-section .nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .nav ul {
+		flex-direction: column;
 	}
-	.page-section .p-header-container .column-a {
+}
+
+.page-section .nav a {
+	display: block;
+	padding: 1em 4em 2em 0.5em;
+	height: 6em;
+	&:hover {
+		background-color: $g0;
+	}
+}
+
+
+@include responsive('min-width: #{$width-tablet}') {
+	.page-section .about-report.columns {
+		margin-top: $space-large;
+		margin-bottom: $space-medium;
+		color: $g1;
+	}
+	.page-section .about-report .column-a {
 		max-width: 40%;
 		flex: 1 0 40%;
 		align-self: flex-end;
 	}
 
-	.page-section .p-header-container .column-b {
+	.page-section .about-report .column-b {
 		max-width: 40%;
 		flex: 1 0 40%;
 		align-self: flex-end;

@@ -4,26 +4,35 @@
 .footer {
 	background-color: rgba($g0, 0.6);
 	color: $black;
-	padding-top: $space-medium;
+	padding-top: $space-large;
 }
 
 .footer .content-wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	padding-bottom: $space-small;
+	padding: $space-small/2 $space-small;
+}
+
+.footer .content-wrapper:last-child {
+	padding-bottom: $space-medium;	
 }
 
 .footer .about {
 	width: 70%;
 	flex: 1 0 70%;
-	span {
-		display: block;
-		margin-bottom: 4px;
-		&:not(:first-child) {
-			color: $g1;
-		}
+}
+
+.footer span {
+	display: block;
+	margin-bottom: 4px;
+	&:not(:first-child) {
+		color: $g1;
 	}
+}
+
+.footer span a {
+	color: $green;
 }
 
 @include responsive('min-width: #{$width-tablet}') {
