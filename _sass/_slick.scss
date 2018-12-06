@@ -10,7 +10,7 @@
 $slick-font-path: "../js/libs/slick/fonts/" !default;
 $slick-font-family: "slick" !default;
 $slick-loader-path: "../js/libs/slick/" !default;
-$slick-arrow-color: $g1 !default;
+$slick-arrow-color: #fff !default;
 $slick-dot-color: $black !default;
 $slick-dot-color-active: $slick-dot-color !default;
 $slick-prev-character: "\2190" !default;
@@ -69,7 +69,7 @@ $slick-opacity-not-active: 0.25 !default;
     line-height: 0px;
     font-size: 0px;
     cursor: pointer;
-    background: rgba($black, 0.1);
+    background: rgba($black, 0.2);
     color: transparent;
     top: 0;
     // -webkit-transform: translate(0, -50%);
