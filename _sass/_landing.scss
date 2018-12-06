@@ -67,6 +67,12 @@
 	border-bottom: 1px solid $g0;
 }
 
+@include responsive('min-width: #{$width-tablet}') {
+	.page-section .nav-wrapper {
+		padding: 0 $space-small;
+	}
+}
+
 .page-section .nav ul {
 	display: flex;
 	list-style: none;
@@ -78,24 +84,26 @@
 	.page-section .nav ul {
 		flex-direction: column;
 	}
+	.page-section .nav a {
+		padding: 0.5em 0;
+	}
 }
 
 .page-section .nav a {
 	display: block;
 	padding: 1em 4em 2em 0.5em;
-	height: 6em;
 	&:hover {
 		background-color: $g0;
 	}
 }
 
+.page-section .about-report.columns {
+	margin-top: $space-large;
+	margin-bottom: $space-medium;
+	color: $g1;
+}
 
 @include responsive('min-width: #{$width-tablet}') {
-	.page-section .about-report.columns {
-		margin-top: $space-large;
-		margin-bottom: $space-medium;
-		color: $g1;
-	}
 	.page-section .about-report .column-a {
 		max-width: 40%;
 		flex: 1 0 40%;
@@ -112,11 +120,26 @@
 	}
 }
 
-@media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.page-section .p-header-container .column-b {
-		order: -1;
+@include responsive('min-width: #{$width-tablet}') {
+	.page-section .about-report .column-a {
+		padding-left: $space-small;
 	}
 
+	.page-section .about-report .column-b {
+		padding-right: $space-small;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .about-report .column-a {
+		padding-left: $space-small/2;
+		padding-right: $space-small/2;
+	}
+	.page-section .about-report .column-b {
+		padding-left: $space-small/2;
+		padding-right: $space-small/2;
+		order: -1;
+	}
 }
 
 // sections common
