@@ -1,4 +1,4 @@
-.event {
+.list {
 	display: flex;
 	justify-content: space-between;
 	border-top: 1px solid $g2;
@@ -8,67 +8,67 @@
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.event {
+	.list {
 		flex-direction: column;
 	}
 }
 
-.events .title {
+.listing .title {
 	font-size: $medium-text;
 	margin-bottom: $space-small/6;
 }
-.events .date {
+.listing .date {
 	font-size: $number;
 	font-weight: normal;
 	line-height: 1;
 	color: $g1;
 }
 
-.events .description {
+.listing .description {
 	color: $g1;
 }
 
 
-.sub-event {
+.sub-list {
 	display: flex;
 	border-top: 1px solid $g2;
 	padding-top: $space-small/2;
 }
 
 @include responsive('min-width: #{$width-tablet}') {
-	.sub-event {
+	.sub-list {
 		margin-left: 40%;
 	}
 }
 
 
 @include responsive('min-width: #{$width-tablet}') {
-	.events .date {
+	.listing .date {
 		max-width: 15%;
 		flex-basis: 15%;
 	}
-	.event .event-wrapper {
+	.list .list-wrapper {
 		max-width: 60%;
 		flex-basis: 60%;
 	}
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.event .date {
+	.list .date {
 		font-size: $x-large-text;
 	}
 }
 
-.event.with-note {
+.list.with-note {
 	padding-bottom: $space-small/2;
 }
 
-.events .note {
+.listing .note {
 	margin-bottom: $space-small/6;
 	color: darken($g0, 50%);
 }
 
-.events .illustration {
+.listing .illustration {
 	margin-top: $space-medium;
 	margin-bottom: $space-small;
 }
