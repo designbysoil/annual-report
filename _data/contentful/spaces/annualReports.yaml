@@ -3,9 +3,9 @@ annualReport:
 - sys:
     id: 1WcdU4LZoH1Ju1N8uzJJvE
     created_at: !ruby/object:DateTime 2019-01-21 20:27:25.632000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-21 20:27:25.632000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-22 21:49:02.939000000 Z
     content_type_id: annualReport
-    revision: 1
+    revision: 2
   title: 2017 Annual Report
   summary: Meedan designs/develops open source software, leads monitoring projects,
     produces assessment standards, and conducts trainings in support of global digital
@@ -16,9 +16,9 @@ annualReport:
   - sys:
       id: 40Gp9FLfhLZDNfzKYUgNTH
       created_at: !ruby/object:DateTime 2019-01-21 20:27:20.858000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-21 21:02:12.234000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 20:48:50.423000000 Z
       content_type_id: section
-      revision: 3
+      revision: 5
     title: CEO's Note
     cover_graphic:
       sys:
@@ -50,4 +50,47 @@ annualReport:
         id: 2gxEcPaIyBtosFUUSImQaX
     - sys:
         id: 7CPTJPOYxHupQj6ul3vkgv
+    - sys:
+        id: 2p94geheByZoPwqLPE56JD
+    - sys:
+        id: 3yBvdKzvcRocpsebN8j55E
+    - sys:
+        id: 4UYS4O175TDmBzNY4Mkmsm
+    - sys:
+        id: 7L0t0DsPuQ1h0rbayIjRfd
+    - sys:
+        id: 3XSzQftP6LsyFnToXBoqIZ
+    - sys:
+        id: 67VTyA7nV34oIZ8Es8kbUY
+    - sys:
+        id: 5dS2dTYutVFwK1mr328kRr
+    - sys:
+        id: wYZ17X5tCt8bZfsAZi5QP
+    - sys:
+        id: 6ToC9qCqpUSyoVvypbSHJO
+    - sys:
+        id: PlrKzbHBIwrfHIW5cCS1w
+    - sys:
+        id: 4pruJ90FWBVj8AgyV9QtUp
+    - sys:
+        id: rhgDv8EwHY3FZLmUO08gG
     section_class: introduction
+  - sys:
+      id: 53AMNmp00jnoo7vjs2kFTm
+      created_at: !ruby/object:DateTime 2019-01-22 21:48:45.898000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 21:48:45.898000000 Z
+      content_type_id: section
+      revision: 1
+    title: In Numbers
+    cover_graphic:
+      sys:
+        id: TikhWKrVq60OCqqcSga4w
+        created_at: !ruby/object:DateTime 2018-12-07 19:55:21.621000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 19:55:21.621000000 Z
+      title: graphic in-numbers
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+    modules:
+    - sys:
+        id: 2TQpvDUk16C8J0JpLinacu
+    section_class: in-numbers

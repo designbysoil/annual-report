@@ -1,13 +1,17 @@
-{% if inner %}
+{% if inner.image %}
 	{% assign caption = inner.caption %}
 	{% assign i = inner.image %}
 	{% assign caption_title = inner.caption_title %}
+	{% assign top_border = inner.top_border %}
 {% else %}
 	{% assign caption = module.caption %}
 	{% assign i = module.image %}
 	{% assign caption_title = module.caption_title %}
+	{% assign top_border = module.top_border %}
 {% endif %}
-
+{% if top_border == true %}
+	<hr />
+{% endif %}
 <div class="media">
 	<div class="media-image">
       	<img src="{{ i.url | append: '?fl=progressive' }}" alt="{{ caption }}" />
