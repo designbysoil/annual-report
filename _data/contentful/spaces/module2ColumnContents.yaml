@@ -1,0 +1,180 @@
+---
+module2ColumnContent:
+- sys:
+    id: 2cN3kU1bZUPeRP4aZ11xWk
+    created_at: !ruby/object:DateTime 2019-01-21 20:31:09.232000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-21 20:34:18.841000000 Z
+    content_type_id: module2ColumnContent
+    revision: 2
+  title: Common Standards
+  content:
+  - sys:
+      id: 6YeAXCfNTp7XWVEAaRaolW
+      created_at: !ruby/object:DateTime 2019-01-21 20:30:37.375000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:30:37.375000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: |-
+      So, when the dust settled on Electionland (before the awards for that project started to drop from the sky) we recognized that the 1000 journalists that were working into our software, doing annotation work, classifying content were completely disconnected from the machinery. We called for: “common media verification standards and APIs, and they should work to develop a shared visual language to expose the work of media verification and fact-checking professionals. This means developing a new schema for verification.”
+
+      This found its form in the Credibility Coalition, an initiative we started with Hacks/Hackers that has grown in 2017 to bring Facebook, Google, Twitter, and the W3C behind this effort to develop and test third party signals that can be used to describe link, claim, and image credibility. It is a daunting and ambitious project and amounts to an effort to create a machine readable context layer above the web.
+
+      Also in 2017 we partnered with Dig Deeper Media to start Pop-Up Newsroom, to seed and launch collaborative reporting initiatives in different contexts and countries around the world. To date, much of our work has been focused on the challenge of limiting the spread and impact of viral misinformation around elections, and creating media projects that serve audiences through provision of credible content, debunks, and media literacy content. Pop-Up Newsroom was deployed in the US at Texas State’s J-School where we ran a training program for young journalists working on the Documenting Hate project.
+
+      With our brilliant partners at Birmingham City University we created the first CheckCon where friends like Katherine Maher, Lina Attalah, Jillian York and many more inspired a global gathering of media and internet geeks with their ideas on the future of open knowledge and open tools.
+
+      We have witnessed increasing global demand for access to Check from global civil society and independent media. For example, following Rappler’s implementation of Check in the Philippines, IFCN signatory VERA Files (also in the Philippines) requested access and are now using Check as their primary fact-checking workbench. We ran two projects with Hong Kong University using Check and Bridge to monitor and translate Weibo content. Bellingcat has used Check to open crowdsource geolocation of imagery for Interpol. Syrian Archive and the Berkeley Human Rights Center conducted digital investigations that conclusively showed the provenance of chemical weapons attacks in Syria. CrossCheck and Electionland both ran on Check and picked up OJAs (Online Journalism Awards). And, following PesaCheck’s use of Check in the Kenyan election in November 2017, the Media Council of Kenya and groups in Zimbabwe (CITE, ZimFact) have partnered with us.
+  - sys:
+      id: 4PiW1fdUZq7cBEenN6Z5pf
+      created_at: !ruby/object:DateTime 2019-01-21 20:30:53.234000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:30:53.234000000 Z
+      content_type_id: moduleImage
+      revision: 1
+    caption: Rights Con, Brussels - March 2017
+    image:
+      sys:
+        id: 29EqTxtg8IaQgUQCaYYwo6
+        created_at: !ruby/object:DateTime 2018-12-05 21:20:37.524000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-05 21:20:37.524000000 Z
+      title: An at Rights Con 2017
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/29EqTxtg8IaQgUQCaYYwo6/6049b1340804627185e0f796fc9e0835/_Priority__An_at_Rights_Con_2017.jpg"
+    lead_image: false
+  - sys:
+      id: 5uqrRSFtRHpYZJZwSx9mtv
+      created_at: !ruby/object:DateTime 2019-01-21 20:31:05.104000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:31:05.104000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: "There is no question that this past seven years of our work has been
+      a single long, and, from this vantage point, prescient, arc to the epicenter
+      of the internet freedom and access issues that offer a serious threat to democratic
+      systems around the world. We take this to be very much the challenge of our
+      time, and a challenge that does not just impact political participation, but
+      also public health, education, environment, and virtually every area of online
+      discourse. We did not envision seven years ago that our idea for addressing
+      verification in service of raising citizen voices would have put us in the middle
+      of the effort to improve the very infrastructure of the web, but we are extremely
+      proud that we have navigated our work to this point and are very grateful for
+      the huge contributions to our work in 2017 from our funders, partners, and,
+      most importantly, our users.\n\nIn the next year we expect to work with amazing
+      partners like Yemen Archive, Rappler, Animal Politico, Chicas Poderosas, AfricaCheck,
+      Witness, and Dig Deeper in election settings, digital investigations, and crisis
+      response efforts. Most importantly, we will pursue this ambitious agenda with
+      an organizational commitment to place diversity, kindness, and support for the
+      well-being of our team members and partners at the core of everything we do.\n\nUntil
+      Soon, \nEAB"
+  top_border: false
+- sys:
+    id: 5eyjYBy7neZpkFUk0dr9Sy
+    created_at: !ruby/object:DateTime 2019-01-21 20:33:36.203000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-21 20:34:31.713000000 Z
+    content_type_id: module2ColumnContent
+    revision: 2
+  title: Check Global
+  content:
+  - sys:
+      id: ktiHGH1HCeYJOMFgIVPpi
+      created_at: !ruby/object:DateTime 2019-01-21 20:33:30.050000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:33:30.050000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: CHECK — Meedan's flagship project focused on open source technologies
+      for media, source, link verification and research and trainings that support
+      these practices. Beneficiaries include human rights investigators, independent
+      journalists, and civil society orgs. In 2017 we delivered high impact projects
+      in Lebanon, Philippines, Hong Kong, Kenya, Egypt, France, England, and the US.
+  top_border: true
+- sys:
+    id: 7ICtlzxtQlvh49djm1qUQf
+    created_at: !ruby/object:DateTime 2019-01-21 20:35:19.060000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-21 20:35:19.060000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Credibility Coalition
+  content:
+  - sys:
+      id: 52xYiwfSRrPThVnWo8ZoBM
+      created_at: !ruby/object:DateTime 2019-01-21 20:35:08.820000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:35:08.820000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: |-
+      [The Credibility Coalition](http://credibilitycoalition.org/) is a diverse, interdisciplinary community committed to improving information ecosystems and media literacy through transparent and collaborative exploration. Rather than jointly deciding whether an article is “credible” or “not credible” or endorsing any single index or evaluation of credibility, the Credibility Coalition fosters the development of a framework around which credibility can be discussed and interpreted.
+
+      Our goal is to provide a range of indicators that can be used by a person — or a system — to gauge if an article can inform or educate that person (or whoever the audience is likely to be).
+  top_border: true
+- sys:
+    id: 1MTEldTORcrbhaH0BcX0Vk
+    created_at: !ruby/object:DateTime 2019-01-21 20:37:15.962000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-21 20:37:15.962000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Pop-Up Newsroom
+  content:
+  - sys:
+      id: 2LjqE7Osm8dVR9sdhphVkH
+      created_at: !ruby/object:DateTime 2019-01-21 20:36:39.814000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:36:39.814000000 Z
+      content_type_id: moduleImage
+      revision: 1
+    caption: "#GE2017 in the UK"
+    image:
+      sys:
+        id: 1lAuCDfiq2d4r5MWeK7FSN
+        created_at: !ruby/object:DateTime 2019-01-21 20:36:25.713000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-21 20:36:25.713000000 Z
+      title: PopUpGE2017 2-3
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/1lAuCDfiq2d4r5MWeK7FSN/0a3dde45fd554af88daffcc8d3cd762a/PopUpGE2017_2-3.jpg"
+    lead_image: false
+  - sys:
+      id: 1ysSjFs4e0VCB16TxFyenh
+      created_at: !ruby/object:DateTime 2019-01-21 20:37:09.761000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:37:09.761000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: |-
+      [Pop-Up Newsroom](https://popup.news/) was founded in 2017 by Dig Deeper Media and Meedan and is an innovation framework for newsrooms that are changing the way they collaborate, communicate and engage audiences through new tools and training. Our structured approach to innovation — both technological and editorial — is unique.
+
+      The Pop-Up Newsroom team have been involved in leading a number of large, high-profile social monitoring and verification projects since 2016: from Electionland in the US, to CrossCheck in France, #GE2017 in the UK.
+  top_border: true
+- sys:
+    id: 6XnFTPf69SvdJkkNxy5UhA
+    created_at: !ruby/object:DateTime 2019-01-21 20:40:19.579000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-21 20:40:19.579000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: The Translation Project /Bridge
+  content:
+  - sys:
+      id: 5qaJm3uJjMADDLpItRZgJx
+      created_at: !ruby/object:DateTime 2019-01-21 20:40:07.099000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:40:07.099000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: In 2017 we continued development and research on translation solutions
+      for refugees and aid workers in crisis settings.
+  top_border: true
+- sys:
+    id: 2gxEcPaIyBtosFUUSImQaX
+    created_at: !ruby/object:DateTime 2019-01-21 20:40:53.549000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-21 20:40:53.549000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Geographic areas served
+  content:
+  - sys:
+      id: fuBTbEkaFjncD0uTQOdq9
+      created_at: !ruby/object:DateTime 2019-01-21 20:40:45.247000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 20:40:45.247000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: |-
+      - MENA
+      - SE Asia
+      - East Africa
+      - Latin America
+      - Europe
+      - North America
+  top_border: true

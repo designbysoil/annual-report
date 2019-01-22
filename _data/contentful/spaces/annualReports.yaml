@@ -1,0 +1,53 @@
+---
+annualReport:
+- sys:
+    id: 1WcdU4LZoH1Ju1N8uzJJvE
+    created_at: !ruby/object:DateTime 2019-01-21 20:27:25.632000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-21 20:27:25.632000000 Z
+    content_type_id: annualReport
+    revision: 1
+  title: 2017 Annual Report
+  summary: Meedan designs/develops open source software, leads monitoring projects,
+    produces assessment standards, and conducts trainings in support of global digital
+    journalism, human rights media investigations, and digital media verification.
+  year: 2017
+  slug: 2017-annual-report
+  sections:
+  - sys:
+      id: 40Gp9FLfhLZDNfzKYUgNTH
+      created_at: !ruby/object:DateTime 2019-01-21 20:27:20.858000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-21 21:02:12.234000000 Z
+      content_type_id: section
+      revision: 3
+    title: CEO's Note
+    cover_graphic:
+      sys:
+        id: 6Zwa8hoN1eeqoWaqyQscqk
+        created_at: !ruby/object:DateTime 2018-12-07 19:56:11.216000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 19:56:11.216000000 Z
+      title: graphic introduction
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/6Zwa8hoN1eeqoWaqyQscqk/fbcbb3cfe808c8d9c86696f7bf19f77e/graphic_introduction.png"
+    background_color: "#262626"
+    modules:
+    - sys:
+        id: 4CNo4r00vh1ybDFHJlTqy9
+    - sys:
+        id: 74L9TRXQcZOAJxv375unEG
+    - sys:
+        id: 2cN3kU1bZUPeRP4aZ11xWk
+    - sys:
+        id: XqJB4MNnFgacnsF4C3Fx9
+    - sys:
+        id: 5eyjYBy7neZpkFUk0dr9Sy
+    - sys:
+        id: 7ICtlzxtQlvh49djm1qUQf
+    - sys:
+        id: 1MTEldTORcrbhaH0BcX0Vk
+    - sys:
+        id: 6XnFTPf69SvdJkkNxy5UhA
+    - sys:
+        id: 2gxEcPaIyBtosFUUSImQaX
+    - sys:
+        id: 7CPTJPOYxHupQj6ul3vkgv
+    section_class: introduction

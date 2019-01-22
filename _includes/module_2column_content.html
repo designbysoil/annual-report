@@ -1,0 +1,13 @@
+<div class="columns">
+	<div class="column column-a">
+	    <h3>{{ module.title }}</h3>
+	</div>
+	<div class="column column-b">
+		{% for m in module.content %}
+			{% 
+				include render_inner_modules.html 
+				id = m.sys.id
+			%}
+		{% endfor %}
+	</div>
+</div>
