@@ -3,10 +3,10 @@ annualReport:
 - sys:
     id: 1WcdU4LZoH1Ju1N8uzJJvE
     created_at: !ruby/object:DateTime 2019-01-21 20:27:25.632000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-23 22:11:37.126000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 22:20:25.802000000 Z
     content_type_id: annualReport
-    revision: 8
-  title: 2017 Annual Report
+    revision: 9
+  title: 2017 Annual Report Develop
   summary: Meedan designs/develops open source software, leads monitoring projects,
     produces assessment standards, and conducts trainings in support of global digital
     journalism, human rights media investigations, and digital media verification.
