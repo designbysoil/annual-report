@@ -461,9 +461,9 @@ section:
 - sys:
     id: 2Vr946Zbtv8fF9aZms28cA
     created_at: !ruby/object:DateTime 2019-01-23 00:21:18.567000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-23 00:21:18.567000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:56:18.260000000 Z
     content_type_id: section
-    revision: 1
+    revision: 3
   title: Financials
   cover_graphic:
     sys:
@@ -482,3 +482,27 @@ section:
       content_type_id: moduleLeadText
       revision: 1
     content: We are pleased to share our financial report for 2017.
+  - sys:
+      id: 12jbYggS8zapZoekldu1eJ
+      created_at: !ruby/object:DateTime 2019-01-23 00:54:38.123000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:55:28.099000000 Z
+      content_type_id: module2ColumnContent
+      revision: 2
+    title: Revenue
+    content:
+    - sys:
+        id: 7IVoK3qesaAtPYUOFVyLYd
+    - sys:
+        id: HwTGlt4zHy0A7aALzYXpX
+    top_border: true
+  - sys:
+      id: 3KUJwV3AI0JJbaZNUJoqft
+      created_at: !ruby/object:DateTime 2019-01-23 00:56:13.517000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:56:13.517000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Expenditures
+    content:
+    - sys:
+        id: 2qk8xdU7comdzqFvD3yNRB
+    top_border: true

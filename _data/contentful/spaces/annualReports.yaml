@@ -139,9 +139,9 @@ annualReport:
   - sys:
       id: 2Vr946Zbtv8fF9aZms28cA
       created_at: !ruby/object:DateTime 2019-01-23 00:21:18.567000000 Z
-      updated_at: !ruby/object:DateTime 2019-01-23 00:21:18.567000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:56:18.260000000 Z
       content_type_id: section
-      revision: 1
+      revision: 3
     title: Financials
     cover_graphic:
       sys:
@@ -155,3 +155,7 @@ annualReport:
     modules:
     - sys:
         id: 5gqqciEBliR4BGXgeaUM8a
+    - sys:
+        id: 12jbYggS8zapZoekldu1eJ
+    - sys:
+        id: 3KUJwV3AI0JJbaZNUJoqft

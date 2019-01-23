@@ -105,3 +105,35 @@ stat:
     revision: 1
   label: Number of new users
   number: '21'
+- sys:
+    id: 2ToZT9DE6VAXI0Au2jIrVv
+    created_at: !ruby/object:DateTime 2019-01-23 00:55:00.077000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:55:00.077000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Contributions and Grants
+  number: '793,499'
+- sys:
+    id: 7MMcde6mFFyaAokYwIM1I4
+    created_at: !ruby/object:DateTime 2019-01-23 00:55:11.761000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:55:11.761000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Program service revenue
+  number: '435,720'
+- sys:
+    id: 3IYrtuorHmIhVZaGpXU2D7
+    created_at: !ruby/object:DateTime 2019-01-23 00:55:20.641000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:55:20.641000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Total revenue
+  number: '1,229,326'
+- sys:
+    id: 4kfU10s7xIKUCzhbP1SqZO
+    created_at: !ruby/object:DateTime 2019-01-23 00:56:07.548000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:56:07.548000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Total expenditures
+  number: '1,461,661'

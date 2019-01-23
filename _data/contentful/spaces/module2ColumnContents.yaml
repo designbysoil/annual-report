@@ -395,3 +395,60 @@ module2ColumnContent:
     revision: 1
   title: More Press Links
   top_border: true
+- sys:
+    id: 12jbYggS8zapZoekldu1eJ
+    created_at: !ruby/object:DateTime 2019-01-23 00:54:38.123000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:55:28.099000000 Z
+    content_type_id: module2ColumnContent
+    revision: 2
+  title: Revenue
+  content:
+  - sys:
+      id: 7IVoK3qesaAtPYUOFVyLYd
+      created_at: !ruby/object:DateTime 2019-01-23 00:54:31.250000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:54:31.250000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: Revenue
+    graphic:
+      sys:
+        id: 33jP4skkx2yAmKkO8QcAYy
+        created_at: !ruby/object:DateTime 2018-12-07 19:52:03.235000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-07 22:44:02.358000000 Z
+      title: graph revenue
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/33jP4skkx2yAmKkO8QcAYy/bbe4d186ea445c9de47e012f2d010d21/graph_revenue.png"
+  - sys:
+      id: HwTGlt4zHy0A7aALzYXpX
+      created_at: !ruby/object:DateTime 2019-01-23 00:55:25.185000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:55:25.185000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: Revenue Numbers
+    stats:
+    - sys:
+        id: 2ToZT9DE6VAXI0Au2jIrVv
+    - sys:
+        id: 7MMcde6mFFyaAokYwIM1I4
+    - sys:
+        id: 3IYrtuorHmIhVZaGpXU2D7
+  top_border: true
+- sys:
+    id: 3KUJwV3AI0JJbaZNUJoqft
+    created_at: !ruby/object:DateTime 2019-01-23 00:56:13.517000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:56:13.517000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Expenditures
+  content:
+  - sys:
+      id: 2qk8xdU7comdzqFvD3yNRB
+      created_at: !ruby/object:DateTime 2019-01-23 00:56:05.370000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:56:05.370000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: Expenditures Numbers
+    stats:
+    - sys:
+        id: 4kfU10s7xIKUCzhbP1SqZO
+  top_border: true
