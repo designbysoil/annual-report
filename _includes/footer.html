@@ -2,25 +2,17 @@
 	<div class="content-wrapper">
 		<div class="board">
 			<span>Board of Directors</span>
-			<span>Ed Bice (Board Chair)</span>
-			<span>Jon Corshen</span>
-			<span>Hanan Heikal</span>
-			<span>Tim Hwang</span>
-			<span>Zeynep Tufecki</span>
+			{{ page.board_of_directors | markdownify }}
 		</div>
 	</div>
 	<div class="content-wrapper">
 		<div class="about">
-				<span>Meedan</span>
-				<span>1355 Market, Suite 488</span>
-				<span>San Francisco, CA 94103</span>
-				<span>United States</span>
-				
-				<span><a href="mailto: hello@meedan.com">hello@meedan.com</a>
+			<span>Meedan</span>
+			{{ page.address | markdownify }}
 		</div>
 		<div class="social">
 			<ul>
-				<li>Follow Us</li>
+				<li><span>Follow Us</span></li>
 				<li><a href="//github.com/Meedan">Github</a></li>
 				<li><a href="//medium.com/@meedan">Medium</a></li>
 				<li><a href="//twitter.com/meedan">Twitter</a></li>
@@ -29,7 +21,7 @@
 		</div>
 		<div class="past-year">
 			<ul>
-				<li>Past Years</li>
+				<li><span>Past Years</span></li>
 				<li><a href="//meedan.com/2016-annual-report/">2016</a></li>
 				<li><a href="//meedan.com/2015-annual-report/">2015</a></li>
 				<li><a href="//meedan.com/2014-annual-report/">2014</a></li>
@@ -39,8 +31,7 @@
 	<div class="content-wrapper">
 		<div class="donate">
 				<span>Donate</span>
-				<span>Support Meedan in building world class tools for journalists, citizen journalists and translators.</span>
-				<span><a href="//donorbox.org/support-meedan">Become a Meedan Supporter</a></span>
+				{{ page.donate | markdownify }}
 		</div>
 	</div>
 </section>

@@ -3,9 +3,9 @@ annualReport:
 - sys:
     id: 1WcdU4LZoH1Ju1N8uzJJvE
     created_at: !ruby/object:DateTime 2019-01-21 20:27:25.632000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-23 00:21:23.565000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 22:11:37.126000000 Z
     content_type_id: annualReport
-    revision: 4
+    revision: 8
   title: 2017 Annual Report
   summary: Meedan designs/develops open source software, leads monitoring projects,
     produces assessment standards, and conducts trainings in support of global digital
@@ -159,3 +159,28 @@ annualReport:
         id: 12jbYggS8zapZoekldu1eJ
     - sys:
         id: 3KUJwV3AI0JJbaZNUJoqft
+  about: This Annual Report reflects the state of Meedan.org and its financial health.
+    Meedan.org is a US registered, San Francisco based, 501(c) 3 non-profit organization
+    established in 2006 that works on projects to support global journalism and cross-cultural
+    education.
+  graphic:
+    sys:
+      id: 6WyFUg4Ms8G2cEcQescK8Y
+      created_at: !ruby/object:DateTime 2018-12-07 19:57:57.085000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 19:45:18.755000000 Z
+    title: Graphic for verticals
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/6WyFUg4Ms8G2cEcQescK8Y/0d27f795fc6ce7c47ded094e75ed3b4c/graphic_verticals.png"
+  board_of_directors: |-
+    - Ed Bice (Board Chair)
+    - Jon Corshen
+    - Hanan Heikal
+    - Tim Hwang
+    - Zeynep Tufecki
+  address: |-
+    - 1355 Market, Suite 488
+    - San Francisco, CA 94103
+    - United States
+    - [hello@meedan.com](mailto:hello@meedan.com)
+  donate: "- Support Meedan in building world class tools for journalists, citizen
+    journalists and translators. \n- [Become a Meedan Supporter](https://donorbox.org/support-meedan)"

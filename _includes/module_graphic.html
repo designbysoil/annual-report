@@ -3,9 +3,8 @@
 {% if inner.graphic %}
 	{% assign graphic = inner.graphic.url %}
 	{% assign note = inner.note %}
-{% elsif include.url %}
+{% elsif include.url && include.title %}
 	{% assign graphic = include.url %}
-{% elsif include.title %}
 	{% assign title = include.title %}
 {% else %}
 	{% assign graphic = module.graphic.url %}

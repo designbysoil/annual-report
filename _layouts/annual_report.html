@@ -7,30 +7,31 @@
         {% include header.html %}
         <div class="p-header">
             <div class="p-header-container">
-                <h1>2017 Annual Report</h1>
-                <h2>Meedan designs/develops open source software, leads monitoring projects, produces assessment standards, and conducts trainings in support of global digital journalism, human rights media investigations, and digital media verification.</h2>
+                <h1>{{ page.title }}</h1>
+                <h2>{{ page.summary | markdownify }}</h2>
             </div>
         </div>
         <section class="precontent">
+            {% if page.sections %}
         	<div class="nav-wrapper">
 	        	<div class="nav">
-	                <ul>
-	                    <li><a href="#introduction">CEO's Note</a></li>
-	                    <li><a href="#in-numbers">In Numbers</a></li>
-	                    <li><a href="#reviews">What are people saying?</a></li>
-	                    <li><a href="#financials">Financials</a></li>
+                    <ul>
+                        {% for section in page.sections %}
+	                       <li><a href="#{{ section.section_class | slugify }}">{{ section.title }}</a></li>
+                        {% endfor %}
 	                </ul>
 	            </div>
 	        </div>
+            {% endif %}
             <div class="columns about-report">
                 <div class="column-a">
-                    <p>This Annual Report reflects the state of Meedan.org and its financial health. Meedan.org is a US registered, San Francisco based, 501(c) 3 non-profit organization established in 2006 that works on projects to support global journalism and cross-cultural education.</p>
+                    {{ page.about | markdownify }}
                 </div>
                 <div class="column-b">
                     {%
                     include module_graphic.html
-                    url="//images.ctfassets.net/g118h5yoccvd/6WyFUg4Ms8G2cEcQescK8Y/0d27f795fc6ce7c47ded094e75ed3b4c/graphic_verticals.png"
-                    title="in numbers"
+                    url=page.graphic.url
+                    title=page.graphic.title
                     %}
                 </div>
             </div>
