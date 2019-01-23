@@ -1,7 +1,19 @@
-{% assign title = include.title %}
-{% assign url = include.url %}
-{% assign full_width = include.full_width | default: 'false' %}
-{% assign full_width_class = 'full-width' %}
-<div class="illustration{% if full_width == true %}{{ full_width_class | prepend: ' ' }}{% endif %}">
-	<img src="{{ include.url }}" alt="{{ include.title }}"/>
+<!-- clear previous notes -->
+{% assign note = '' %}
+{% if inner.graphic %}
+	{% assign graphic = inner.graphic.url %}
+	{% assign note = inner.note %}
+{% elsif include.url %}
+	{% assign graphic = include.url %}
+{% elsif include.title %}
+	{% assign title = include.title %}
+{% else %}
+	{% assign graphic = module.graphic.url %}
+	{% assign note = module.note %}
+{% endif %}
+<div class="illustration">
+	<img src="{{ graphic }}" alt="{{ title }}"/>
 </div>
+{% if note %}
+	<div class="note">{{ note }}</div>
+{% endif %}

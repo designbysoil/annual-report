@@ -9,6 +9,10 @@
 					{% include module_text.html %}	
 				{% when 'moduleImage' %}
 					{% include module_image.html %}
+				{% when 'moduleGraphic' %}
+					{% include module_graphic.html %}
+				{% when 'moduleStats' %}
+					{% include module_stats.html %}
 			{% endcase %}
 		{% endif %}
 	{% endfor %}

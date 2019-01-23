@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
 	// Slick Slider for press
-	$('.card-wrapper').slick({
+	$('.cards').slick({
 		dots: true,
 	});
 

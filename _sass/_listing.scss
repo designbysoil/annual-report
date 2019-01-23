@@ -14,6 +14,17 @@
 	padding-bottom: $space-small/2;
 }
 
+@include responsive('min-width: #{$width-tablet}') {
+	.list-only {
+		margin-left: 40%;
+	}
+
+	.listing .list-only .list-wrapper {
+		max-width: none;
+		flex-basis: auto;
+	}
+}
+
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.list {
 		flex-direction: column;

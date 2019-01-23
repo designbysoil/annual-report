@@ -195,3 +195,203 @@ module2ColumnContent:
     content: A timeline of the events that took place and Meedan participated at in
       2017!
   top_border: false
+- sys:
+    id: 9wtfZ1DiILMFNhAqj9wsX
+    created_at: !ruby/object:DateTime 2019-01-22 22:56:29.426000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-22 23:40:44.975000000 Z
+    content_type_id: module2ColumnContent
+    revision: 3
+  title: Check
+  content:
+  - sys:
+      id: 56L6B83gDr9REU085qUWdG
+      created_at: !ruby/object:DateTime 2019-01-22 22:55:39.674000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:50:48.194000000 Z
+      content_type_id: moduleTex
+      revision: 3
+    content: "## [Check](https://meedan.com/en/check/) combines smart checklists,
+      workflow integrations, and intuitive design to make digital newsgathering an
+      efficient and collaborative process. Invite your team and online community in
+      a secure environment to work together to validate breaking news content. Then,
+      quickly show the work to your audience on social media or your news site."
+  - sys:
+      id: 6RmpMyIfr2TfLh9iXJtfG7
+      created_at: !ruby/object:DateTime 2019-01-22 22:56:18.250000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:04:55.646000000 Z
+      content_type_id: moduleTex
+      revision: 2
+    content: |-
+      ---
+
+      ### List of top things added to Check in 2017
+
+      - Check localization to French
+      - Reverse image search
+      - Check localization to Arabic
+      - Check localization to Brazilian Portuguese
+      - Keep integration
+      - Browser Extension
+      - Check Bot
+  - sys:
+      id: 2M5jZrLAsBAdLKAfHzJqe3
+      created_at: !ruby/object:DateTime 2019-01-22 23:11:33.276000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:11:33.276000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: Check easy of use graphic
+    graphic:
+      sys:
+        id: 74zB3elofCcOCe2mkuMOCg
+        created_at: !ruby/object:DateTime 2018-12-07 19:52:50.895000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-10 22:42:48.992000000 Z
+      title: graph stats check
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/74zB3elofCcOCe2mkuMOCg/b4d041a2df10a74cc2753f6bb6a8f832/graph_stats_check.png"
+    note: 73% of our users think it’s easy to use Check and 27% think Check is difficult
+      to use.
+  - sys:
+      id: 6mWJjUiETeh0bYmPQG3T9J
+      created_at: !ruby/object:DateTime 2019-01-22 23:40:40.904000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:40:40.904000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: Stats for Check
+    stats:
+    - sys:
+        id: 3AS6jqdJ9x8f291Le7IY6O
+    - sys:
+        id: 7CJ35G2tcT9H3TD5JDHVfJ
+    - sys:
+        id: 2tF0cYtvsigdB58cbsO8H0
+    - sys:
+        id: 5kW2cR97rHJL28SaauI3fd
+  top_border: true
+  logo:
+    sys:
+      id: PjY3XCvyk27TBjrQLKTJC
+      created_at: !ruby/object:DateTime 2019-01-22 22:55:22.434000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 22:55:22.434000000 Z
+    title: Check
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/PjY3XCvyk27TBjrQLKTJC/bf861a45f1878d972a3b807d9fd21e9f/check.svg"
+- sys:
+    id: 78khVdVTFOiFcexFGSYM9a
+    created_at: !ruby/object:DateTime 2019-01-22 23:51:34.948000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-22 23:52:55.237000000 Z
+    content_type_id: module2ColumnContent
+    revision: 2
+  title: Keep
+  content:
+  - sys:
+      id: 2wi1fB9JD2xTLfv7j6y7je
+      created_at: !ruby/object:DateTime 2019-01-22 23:51:25.458000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:51:25.458000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: "## Keep works as a backup platform for links added online. If a media
+      item is added to Check with a link, with Keep enabled, a copy of the link is
+      added to Keep so that there is always a backup link in case that the original
+      goes down or gets removed at any point in time."
+  - sys:
+      id: WcxbtunXHPkxMFlLo4d7M
+      created_at: !ruby/object:DateTime 2019-01-22 23:52:51.609000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:52:51.609000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: Stats for Keep
+    stats:
+    - sys:
+        id: 5AJK5WHAOJRRcz1rDMSRaE
+    - sys:
+        id: 1Q2yReZYPkCOxIVGZs60ES
+    - sys:
+        id: 3llwLp4hEKRYYZReyeRKzV
+    - sys:
+        id: 1XUJcFocBBFgDcAWiY4k6Q
+    - sys:
+        id: 3ofMsvwgcspfXm9XtejIBZ
+    - sys:
+        id: 49JArjNS8B6nlJw5zaMzCK
+  top_border: true
+- sys:
+    id: 16PXMoNzzZD1jMa3ZWyFxx
+    created_at: !ruby/object:DateTime 2019-01-22 23:54:44.783000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-22 23:56:35.647000000 Z
+    content_type_id: module2ColumnContent
+    revision: 3
+  title: Bridge
+  content:
+  - sys:
+      id: 1InDhFMK5OEPgldZHlra41
+      created_at: !ruby/object:DateTime 2019-01-22 23:54:12.240000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:54:12.240000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: "[Bridge](https://meedan.com/en/bridge/) helps communities translate,
+      annotate, share, and source the most compelling global content on social media.
+      Starting with a pilot with the National Geographic Society and Pulitzer Prize-winning
+      journalist Paul Salopek’s Out of Eden Walk project, the product aims to support
+      a team of translators with tools like glossaries and translation memories."
+  - sys:
+      id: 2uHnjqNeXdI6gzoCvSbwFv
+      created_at: !ruby/object:DateTime 2019-01-22 23:56:23.237000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:56:23.237000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: 70% of users think it’s easy to use Bridge and 30% think it is very easy.
+    graphic:
+      sys:
+        id: 2SlNyULm1qOQQCUIayisoG
+        created_at: !ruby/object:DateTime 2018-12-10 22:44:12.161000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-10 22:44:12.161000000 Z
+      title: graph stats bridge
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/2SlNyULm1qOQQCUIayisoG/879470a6e78d5f11166597edd3dacfff/graph_stats_bridge.png"
+    note: 70% of users think it’s easy to use Bridge and 30% think it is very easy.
+  - sys:
+      id: zWzp8PQPglCsq4LGKyh5H
+      created_at: !ruby/object:DateTime 2019-01-22 23:55:49.951000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:55:49.951000000 Z
+      content_type_id: moduleStats
+      revision: 1
+    title: Stats for Bridge
+    stats:
+    - sys:
+        id: xF0gTQJQXekknEut85u28
+    - sys:
+        id: 1Css0rI1kl1229keKIhFAM
+    - sys:
+        id: 46gQSQPWjXPzH1q1RMFzgE
+  top_border: true
+  logo:
+    sys:
+      id: 73Sp2Ab2ltcNdohfflUFVO
+      created_at: !ruby/object:DateTime 2019-01-22 23:54:31.330000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:54:31.330000000 Z
+    title: bridge
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/73Sp2Ab2ltcNdohfflUFVO/19cb09edca959c690d56d01a734549ed/bridge.svg"
+- sys:
+    id: piP2ziCO1Q1n6J0WfanBf
+    created_at: !ruby/object:DateTime 2019-01-23 00:21:59.867000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:21:59.867000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: Press
+  content:
+  - sys:
+      id: 6jayRuQSqRDEvyA95rZSLr
+      created_at: !ruby/object:DateTime 2019-01-23 00:21:51.020000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:21:51.020000000 Z
+      content_type_id: moduleTex
+      revision: 1
+    content: Stories covering Meedan's work in 2017.
+  top_border: true
+- sys:
+    id: 5ng8oM5GT2XtKMgGHDSUqU
+    created_at: !ruby/object:DateTime 2019-01-23 00:37:40.854000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:37:40.854000000 Z
+    content_type_id: module2ColumnContent
+    revision: 1
+  title: More Press Links
+  top_border: true

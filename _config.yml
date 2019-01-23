@@ -46,6 +46,22 @@ contentful:
           content_type: 'module2ColumnContent'
         all_entries: true
         destination: 'contentful/spaces/'
+    - stats: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        # environment: ENV_CONTENTFUL_ENVIRONMENT
+        cda_query:
+          content_type: 'stat'
+        all_entries: true
+        destination: 'contentful/spaces/'
+    - moduleCards: 
+        space: ENV_CONTENTFUL_M_SPACE_ID
+        access_token: ENV_CONTENTFUL_M_ACCESS_TOKEN
+        # environment: ENV_CONTENTFUL_ENVIRONMENT
+        cda_query:
+          content_type: 'moduleCard'
+        all_entries: true
+        destination: 'contentful/spaces/'
 
 
 # Generate pages from Contentful data files

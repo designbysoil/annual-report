@@ -16,6 +16,7 @@ section:
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/6Zwa8hoN1eeqoWaqyQscqk/fbcbb3cfe808c8d9c86696f7bf19f77e/graphic_introduction.png"
   background_color: "#262626"
+  section_class: introduction
   modules:
   - sys:
       id: 4CNo4r00vh1ybDFHJlTqy9
@@ -258,13 +259,12 @@ section:
     note: Caio Almeida (Meedan’s Senior Application Engineer) gave a talk about hybrid
       applications using React.js and React Native, using Check Mark as example
     date: '12'
-  section_class: introduction
 - sys:
     id: 53AMNmp00jnoo7vjs2kFTm
     created_at: !ruby/object:DateTime 2019-01-22 21:48:45.898000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-22 21:48:45.898000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-22 23:56:39.101000000 Z
     content_type_id: section
-    revision: 1
+    revision: 6
   title: In Numbers
   cover_graphic:
     sys:
@@ -274,6 +274,7 @@ section:
     title: graphic in-numbers
     description: 
     url: "//images.ctfassets.net/g118h5yoccvd/TikhWKrVq60OCqqcSga4w/82c7e21d5433cab064e35534f51b6d29/graphic_in-numbers.png"
+  section_class: in-numbers
   modules:
   - sys:
       id: 2TQpvDUk16C8J0JpLinacu
@@ -282,4 +283,202 @@ section:
       content_type_id: moduleLeadText
       revision: 1
     content: 'Here are some important numbers that show how our year went:'
-  section_class: in-numbers
+  - sys:
+      id: 9wtfZ1DiILMFNhAqj9wsX
+      created_at: !ruby/object:DateTime 2019-01-22 22:56:29.426000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:40:44.975000000 Z
+      content_type_id: module2ColumnContent
+      revision: 3
+    title: Check
+    content:
+    - sys:
+        id: 56L6B83gDr9REU085qUWdG
+    - sys:
+        id: 6RmpMyIfr2TfLh9iXJtfG7
+    - sys:
+        id: 2M5jZrLAsBAdLKAfHzJqe3
+    - sys:
+        id: 6mWJjUiETeh0bYmPQG3T9J
+    top_border: true
+    logo:
+      sys:
+        id: PjY3XCvyk27TBjrQLKTJC
+        created_at: !ruby/object:DateTime 2019-01-22 22:55:22.434000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-22 22:55:22.434000000 Z
+      title: Check
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/PjY3XCvyk27TBjrQLKTJC/bf861a45f1878d972a3b807d9fd21e9f/check.svg"
+  - sys:
+      id: 78khVdVTFOiFcexFGSYM9a
+      created_at: !ruby/object:DateTime 2019-01-22 23:51:34.948000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:52:55.237000000 Z
+      content_type_id: module2ColumnContent
+      revision: 2
+    title: Keep
+    content:
+    - sys:
+        id: 2wi1fB9JD2xTLfv7j6y7je
+    - sys:
+        id: WcxbtunXHPkxMFlLo4d7M
+    top_border: true
+  - sys:
+      id: 16PXMoNzzZD1jMa3ZWyFxx
+      created_at: !ruby/object:DateTime 2019-01-22 23:54:44.783000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:56:35.647000000 Z
+      content_type_id: module2ColumnContent
+      revision: 3
+    title: Bridge
+    content:
+    - sys:
+        id: 1InDhFMK5OEPgldZHlra41
+    - sys:
+        id: 2uHnjqNeXdI6gzoCvSbwFv
+    - sys:
+        id: zWzp8PQPglCsq4LGKyh5H
+    top_border: true
+    logo:
+      sys:
+        id: 73Sp2Ab2ltcNdohfflUFVO
+        created_at: !ruby/object:DateTime 2019-01-22 23:54:31.330000000 Z
+        updated_at: !ruby/object:DateTime 2019-01-22 23:54:31.330000000 Z
+      title: bridge
+      description: 
+      url: "//images.ctfassets.net/g118h5yoccvd/73Sp2Ab2ltcNdohfflUFVO/19cb09edca959c690d56d01a734549ed/bridge.svg"
+- sys:
+    id: 5OZPlpfXO6T0KYOWG4xT1h
+    created_at: !ruby/object:DateTime 2019-01-22 23:59:02.241000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:38:49.297000000 Z
+    content_type_id: section
+    revision: 6
+  title: What are people saying
+  cover_graphic:
+    sys:
+      id: 3PsNMd4GDKOI4Kg6A242yo
+      created_at: !ruby/object:DateTime 2018-12-07 19:57:30.447000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-07 19:57:30.447000000 Z
+    title: graphic reviews
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/3PsNMd4GDKOI4Kg6A242yo/d9210c94649cd353c1b8fcc602640783/graphic_reviews.png"
+  background_color: "#D4D4D4"
+  section_class: reviews
+  modules:
+  - sys:
+      id: 6P3rDYRIkw8QVoAUMCzdCf
+      created_at: !ruby/object:DateTime 2019-01-22 23:59:14.094000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-22 23:59:14.094000000 Z
+      content_type_id: moduleLeadText
+      revision: 1
+    content: We are humbled by these quotes from our partners about using Meedan’s
+      tools in 2017.
+  - sys:
+      id: 5N2cI7FerkmFOhKons6Fyn
+      created_at: !ruby/object:DateTime 2019-01-23 00:16:55.254000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:16:55.254000000 Z
+      content_type_id: modulePullQuote
+      revision: 1
+    pullquote_by: Sam Dubberley
+    pullquote: If we had not had Check there as a tool, it would’ve been very difficult
+      to manage that workflow, Having the collaborative aspect of Check as a platform
+      was essential for CrossCheck.
+    source: CrossCheck’s Managing Editor on using Check covering the French Elections
+  - sys:
+      id: xrWqoUT3ZSwc80lz8n67D
+      created_at: !ruby/object:DateTime 2019-01-23 00:17:14.152000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:17:14.152000000 Z
+      content_type_id: modulePullQuote
+      revision: 1
+    pullquote_by: Indira Cornelio
+    pullquote: The app is really good, it makes it very easy to translate the tweets.
+      I think this effort is very important to help informacion, resources and conversations
+      from this type of events to be available to more people in their languages.
+    source: Volunteer translator on using Bridge during RightsCon 2017
+  - sys:
+      id: 1Fl1yA2ewzNxH2DKqruQGh
+      created_at: !ruby/object:DateTime 2019-01-23 00:17:32.658000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:17:32.658000000 Z
+      content_type_id: modulePullQuote
+      revision: 1
+    pullquote_by: Christiaan Triebert
+    pullquote: Whether it’s geolocating international airstrikes in Syria and Iraq,
+      finding sites of potential war crimes in Libya, or tracing objects to stop child
+      abuse, Check is the platform which the international investigative group Bellingcat
+      has repeatedly used to successfully organise and structure crowdsourcing campaigns.
+    source: Open Source Analyst with Bellingcat Team on Check
+  - sys:
+      id: piP2ziCO1Q1n6J0WfanBf
+      created_at: !ruby/object:DateTime 2019-01-23 00:21:59.867000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:21:59.867000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: Press
+    content:
+    - sys:
+        id: 6jayRuQSqRDEvyA95rZSLr
+    top_border: true
+  - sys:
+      id: 6pKH6uCZ8XbD2ZZ0LofBZ6
+      created_at: !ruby/object:DateTime 2019-01-23 00:29:10.609000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:29:10.610000000 Z
+      content_type_id: moduleCards
+      revision: 1
+    title: 2017 Featured Press Coverage
+    cards:
+    - sys:
+        id: OHmcWW5c4lafCTwXJmNeY
+    - sys:
+        id: 7dXF8YsdUGgSoKvx3m4K96
+    - sys:
+        id: 4Eb5CWdmgkbwDnSeqbJ7K
+  - sys:
+      id: 5ng8oM5GT2XtKMgGHDSUqU
+      created_at: !ruby/object:DateTime 2019-01-23 00:37:40.854000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:37:40.854000000 Z
+      content_type_id: module2ColumnContent
+      revision: 1
+    title: More Press Links
+    top_border: true
+  - sys:
+      id: 5Bav2sz7kLXmGjXYP4Hy6V
+      created_at: !ruby/object:DateTime 2019-01-23 00:38:17.336000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:38:17.336000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: Google, Facebook partner to fight fake news in France
+    description: Computer Business Review
+    list_only: true
+    link: https://www.cbronline.com/news/enterprise-it/software/google-facebook-partner-to-fight-fake-news-in-france/
+  - sys:
+      id: 6OXpFKdyepn9b8kst3US53
+      created_at: !ruby/object:DateTime 2019-01-23 00:38:46.034000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:38:46.034000000 Z
+      content_type_id: moduleListItem
+      revision: 1
+    title: 'ProPublica Podcast: After Electionland: How it Worked, What We Found and
+      What’s Next'
+    description: ProPublica
+    list_only: true
+    link: https://www.propublica.org/podcast/item/after-electionland
+- sys:
+    id: 2Vr946Zbtv8fF9aZms28cA
+    created_at: !ruby/object:DateTime 2019-01-23 00:21:18.567000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-23 00:21:18.567000000 Z
+    content_type_id: section
+    revision: 1
+  title: Financials
+  cover_graphic:
+    sys:
+      id: 5w2rRNDeuIUwYmgaIWkYyu
+      created_at: !ruby/object:DateTime 2018-12-07 19:54:44.362000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 22:29:05.696000000 Z
+    title: graphic financials
+    description: 
+    url: "//images.ctfassets.net/g118h5yoccvd/5w2rRNDeuIUwYmgaIWkYyu/36e4324af32d550d5fd9d89a91805ffb/graphic_financials.png"
+  section_class: financials
+  modules:
+  - sys:
+      id: 5gqqciEBliR4BGXgeaUM8a
+      created_at: !ruby/object:DateTime 2019-01-23 00:21:15.616000000 Z
+      updated_at: !ruby/object:DateTime 2019-01-23 00:21:15.616000000 Z
+      content_type_id: moduleLeadText
+      revision: 1
+    content: We are pleased to share our financial report for 2017.

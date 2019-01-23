@@ -223,10 +223,6 @@ section.content h2 {
 	}
 }
 
-.intro {
-	font-size: $medium-text;
-}
-
 .illustration {
 	display: flex;
 	align-items: center;
@@ -311,6 +307,22 @@ section.content h2 {
 	.grouped-column-content {
 		width: 60%;
 	}
+}
+
+// intro text in 2 columns
+section .column-b h2 {
+	font-size: $medium-text;
+}
+
+section .column-b .illustration {
+	margin-top: $space-medium;
+	margin-bottom: $space-small;
+}
+
+section .column-b .note {
+	// margin-top: $space-small;
+	font-size: $small-text;
+	color: $g1;
 }
 
 hr {
